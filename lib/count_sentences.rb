@@ -19,3 +19,4 @@ class String
     counted_sentences_array = self.split(/[.,!,?]/).count
   end
 end
+
