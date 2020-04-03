@@ -16,8 +16,8 @@ class String
 
   def count_sentences
     counted_sentences_array = [] 
-    self.split("!", ".", "?") 
-    
+    self.split("!") 
+    binding.pry 
     
   end
 end
